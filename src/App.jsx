@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
-import BioProtfolio from "./components/BioProtfolio.jsx";
+import BioPortfolio from "./components/BioPortfolio.jsx";
 import LanguageSwitcher from "./components/LanguageSwitcher.jsx";
-import ProtfolioSections from "./components/ProtfolioSections.jsx";
+import PortfolioSections from "./components/PortfolioSections.jsx";
 import { translations } from "./data.js";
 
 export default function App() {
@@ -15,9 +15,9 @@ export default function App() {
   return (
     <main className="page-shell">
       <header className="topbar">
-        <a className="wordmark" href="#" aria-label="Protfolio home">
+        <a className="wordmark" href="#" aria-label="Portfolio home">
           <span className="wordmark-mark">p.</span>
-          protfolio
+          portfolio
         </a>
         <LanguageSwitcher language={language} onChange={setLanguage} />
       </header>
@@ -38,10 +38,10 @@ export default function App() {
             <span aria-hidden="true">↘</span>
           </a>
         </div>
-        <BioProtfolio content={content.bio} />
+        <BioPortfolio content={content.bio} />
       </section>
 
-      <ProtfolioSections content={content.journey} />
+      <PortfolioSections content={content.journey} />
 
       <footer className="footer">
         <span>{content.footer}</span>

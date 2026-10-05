@@ -1,8 +1,8 @@
 import React from "react";
 import profileImage from "./ImagesFiles/ProfileImage.png";
-import "./BioProtfolio.css";
+import "./BioPortfolio.css";
 
-export default function BioProtfolio({ content }) {
+export default function BioPortfolio({ content }) {
   return (
     <article className="bio-card">
       <div className="bio-art">
