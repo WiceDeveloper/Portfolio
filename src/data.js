@@ -342,8 +342,8 @@ export const translations = {
   no: {
     intro: {
       eyebrow: "EN PERSONLIG PORTFØLJE",
-      titleStart: "Litt ",
-      titleAccent: "om meg.",
+      titleStart: "Min ",
+      titleAccent: "utviklerprofil",
       description:
         "Reisen som formet nysgjerrigheten og kreativiteten min.",
       explore: "Utforsk historien min",
@@ -359,8 +359,8 @@ export const translations = {
     },
     journey: {
       eyebrow: "MIN REISE",
-      title: "Dette er litt av",
-      titleAccent: "meg.",
+      title: "Kompetanse og",
+      titleAccent: "erfaring",
       description:
         "Velg en boble for å utforske et kapittel. Klikk på den aktive boblen igjen for å se hva som skjedde videre.",
       next: "Neste kapittel",
