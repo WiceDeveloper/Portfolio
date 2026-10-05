@@ -1,11 +1,11 @@
 import React, { useEffect, useState } from "react";
-import Bio from "./components/Bio.jsx";
+import BioProfolio from "./components/BioProfolio.jsx";
 import LanguageSwitcher from "./components/LanguageSwitcher.jsx";
-import JourneySections from "./components/JourneySections.jsx";
+import ProfolioSections from "./components/ProfolioSections.jsx";
 import { translations } from "./data.js";
 
 export default function App() {
-  const [language, setLanguage] = useState("en");
+  const [language, setLanguage] = useState("no");
   const content = translations[language];
 
   useEffect(() => {
@@ -38,10 +38,10 @@ export default function App() {
             <span aria-hidden="true">↘</span>
           </a>
         </div>
-        <Bio content={content.bio} />
+        <BioProfolio content={content.bio} />
       </section>
 
-      <JourneySections content={content.journey} />
+      <ProfolioSections content={content.journey} />
 
       <footer className="footer">
         <span>{content.footer}</span>
