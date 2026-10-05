@@ -10,6 +10,10 @@ export default function App() {
 
   useEffect(() => {
     document.documentElement.lang = language;
+    document.title =
+      language === "no"
+        ? "Vilius – Fullstackutvikler"
+        : "Vilius – Full-stack Developer (English version)";
   }, [language]);
 
   return (
