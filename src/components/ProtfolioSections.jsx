@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./ProfolioSections.css";
+import "./ProtfolioSections.css";
 
-export default function ProfolioSections({ content }) {
+export default function ProtfolioSections({ content }) {
   const [activeCategory, setActiveCategory] = useState(0);
   const [previewCategory, setPreviewCategory] = useState(null);
   const [entryIndexes, setEntryIndexes] = useState({});
